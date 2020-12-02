@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import ConditionalRendering from "./components/Conditional Rendering/ConditionalRendering";
+import FetchAPI from "./components/API/FetchApi";
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRendering />
+      <FetchAPI />
     </div>
   );
 }
